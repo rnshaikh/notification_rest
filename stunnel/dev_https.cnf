@@ -1,0 +1,7 @@
+cert = C:\Program Files (x86)\stunnel\config\stunnel.pem
+debug = 7
+
+[https]
+accept=8080
+connect=8081
+TIMEOUTclose=1

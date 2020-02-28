@@ -1,0 +1,1 @@
+NOTIFICATION_TYPE = ['notification1','notification2','notification3']
