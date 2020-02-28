@@ -18,4 +18,4 @@ https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/
 from whitenoise.django import DjangoWhiteNoise
 
 application = DjangoWhiteNoise(application)
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
