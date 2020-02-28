@@ -1,0 +1,15 @@
+{
+
+    "name": "notification-rest",
+
+    "description": "Self-hosted app",
+
+    "repository": "https://github.com/rnshaikh/notification_rest.git",
+
+    "scripts": {
+
+    "postdeploy": "python manage.py makemigrations && python manage.py migrate"
+
+  }
+
+}
