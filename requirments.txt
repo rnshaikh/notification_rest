@@ -3,6 +3,7 @@ certifi==2019.11.28
 cffi==1.14.0
 chardet==3.0.4
 cryptography==2.8
+dj-database-url==0.5.0
 Django==3.0.3
 django-cors-headers==3.2.1
 django-extensions==2.2.8
@@ -10,6 +11,7 @@ django-rest-framework==0.1.0
 django-sslserver==0.22
 djangorestframework==3.11.0
 idna==2.9
+psycopg2==2.8.4
 pycparser==2.19
 PyJWT==1.7.1
 pyOpenSSL==19.1.0
@@ -20,3 +22,4 @@ sqlparse==0.3.0
 twilio==6.35.5
 urllib3==1.25.8
 Werkzeug==1.0.0
+whitenoise==5.0.1
